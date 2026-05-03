@@ -13,9 +13,9 @@
           "listen": "test",
           "script": {
             "exec": [
-              "pm.collectionVariables.set(\"name\", \"Ahmed Maher\"+ Math.floor(Math.random()*100));\r",
-              "pm.collectionVariables.set(\"email\", \"ahmedre\"+ Math.floor(Math.random()*100)+\"@gmail.com\");\r",
-              "pm.collectionVariables.set(\"password\", \"ahmedre\"+ Math.floor(Math.random()*100)+\"@gmail.com\");\r",
+              "pm.collectionVariables.set(\"name\", \"Ahmed Maher\"+ Math.trunc(Math.random()*100));\r",
+              "pm.collectionVariables.set(\"email\", \"ahmedre\"+ Math.trunc(Math.random()*100)+\"@gmail.com\");\r",
+              "pm.collectionVariables.set(\"password\", \"ahmedre\"+ Math.trunc(Math.random()*100)+\"@gmail.com\");\r",
               "pm.collectionVariables.set(\"title \", \"Mr\");\r",
               "pm.collectionVariables.set(\"birth_date \", \"16\");\r",
               "pm.collectionVariables.set(\"birth_month \", \"6\");\r",
@@ -362,7 +362,7 @@
           "listen": "test",
           "script": {
             "exec": [
-              "pm.collectionVariables.set(\"Updatedname\", \"Ahmed Maher16620002\"+\" \" +Math.ceil((Math.random()*10)));\r",
+              "pm.collectionVariables.set(\"Updatedname\", \"Ahmed Maher16620002\"+\" \" +Math.trunc((Math.random()*10)));\r",
               "\r",
               "\r",
               ""
